@@ -1,0 +1,33 @@
+.seachContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.seachBox {
+	position: relative;
+}
+
+.seachButton {
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	height: 100%;
+	border: none;
+	background: none;
+}
+
+.seachInput {
+	font-size: 1.2rem;
+	height: 30px;
+	border-radius: 10px;
+	padding: 5px 30px 5px 10px;
+	border: 1px solid white;
+}
+
+.seachInput:focus,
+.seachButton:focus {
+	outline: none;
+	border: 1px solid #ebbed4;
+	box-shadow: 0 0 5px #ebbed4;
+}
